@@ -1,0 +1,15 @@
+{
+  "name": "wasm-alert",
+  "collaborators": [
+    "Kosuke YOSHIMOTO <kosuke.yoshimoto@gmail.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "wasm_alert_bg.wasm",
+    "wasm_alert.js",
+    "wasm_alert.d.ts"
+  ],
+  "module": "wasm_alert.js",
+  "types": "wasm_alert.d.ts",
+  "sideEffects": false
+}

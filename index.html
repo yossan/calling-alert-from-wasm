@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Calling Alert from Wasm</title>
+</head>
+<body>
+<script type="module">
+import * as wasm from './pkg/wasm_alert.js'
+wasm.default().then(() => {
+	main(wasm)
+})
+
+function main(wasm) {
+	wasm.greet()
+}
+</script>
+</body>
+</html>
+
+
+
